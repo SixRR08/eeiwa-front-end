@@ -1,0 +1,89 @@
+<div class="topbar">
+
+  <div class="burger-menu">
+    <button (click)="opened=!opened" class="menu-button">
+      <div class="burger"></div>
+      <div class="burger"></div>
+      <div class="burger"></div>
+    </button>
+  </div>
+
+  <div class="dropdown" style="float:right;">
+    <div class="elipsis-button">
+      <button class="fas fa-ellipsis-h"></button>
+    </div>
+    <div class="dropdown-content">
+      <span class="topbar-search">
+        <input class="search-input" placeholder="Search" type="text">
+        <span class="fas fa-search"></span>
+      </span>
+      <a href="#">
+        <span class="fas fa-envelope"></span>
+        <span class="text-item">Messages</span>
+      </a>
+      <a href="#">
+        <span class="fas fa-cog"></span>
+        <span class="text-item">Settings</span>
+      </a>
+      <a href="#">
+        <span class="fas fa-user-alt"></span>
+        <span class="text-item">User</span>
+      </a>
+
+    </div>
+  </div>
+  <mat-sidenav-container>
+    <mat-sidenav mode="side" [(opened)]="opened">
+      <div class="logo">
+        <h1>EEIWA</h1>
+        <hr>
+      </div>
+      <div class="userin">
+        <span class="fas fa-user-circle"></span>
+        <button class="username">
+          Saimonas Petrukna
+        </button>
+      </div>
+      <div class="menu-options">
+        <ul>
+          <li>
+            <button class="option option1" routerLink="/news">News
+              <span class="far fa-newspaper"></span></button>
+          </li>
+          <li>
+            <button class="option option2" routerLink="/chat">Chat
+              <span class="far fa-comments"></span></button>
+          </li>
+          <li>
+            <button class="option option3" routerLink="/calendar">Calendar
+              <span class="far fa-calendar-alt"></span></button>
+          </li>
+          <li>
+            <button class="option option4" routerLink="/departments">Departments
+              <span class="far fa-building"></span></button>
+          </li>
+          <li>
+            <button class="option option5" routerLink="/profile">Profile
+              <span class="far fa-address-card"></span></button>
+          </li>
+          <li>
+            <button class="option option6" routerLink="/signin">Log Out
+              <span class="fas fa-sign-out-alt"></span></button>
+          </li>
+          <li>
+            <button class="option option7" routerLink="/dayoff">Day Off
+              <span class="far fa-calendar-times"></span></button>
+          </li>
+        </ul>
+      </div>
+
+    </mat-sidenav>
+
+  </mat-sidenav-container>
+</div>
+<!-- Everything after this is only for demo purposes (DELETE IF NOT NEEDED)-->
+
+
+
+
+

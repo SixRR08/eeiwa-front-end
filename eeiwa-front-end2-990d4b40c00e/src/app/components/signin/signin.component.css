@@ -1,0 +1,304 @@
+body {
+  margin: 0px;
+}
+
+.signin-body {
+  background-image: linear-gradient(to top, #5cdb95, #33bd91, #0d9f88, #00817a, #116466);
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+.st0 {
+  fill: #020202;
+}
+
+.st1 {
+  fill: none;
+}
+
+.st2 {
+  fill: #231F20;
+}
+
+.st3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.st4 {
+  font-size: 16.4675px;
+}
+
+.title {
+  position: relative;
+  top: 5px;
+  left: 33px;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+svg {
+  position: relative;
+  width: 160px;
+  left: 105px;
+  margin-top: 10px;
+  top: 5px;
+}
+
+div {
+  display: block;
+}
+
+
+
+.inputs {
+  width: 320px;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #116466;
+  position: relative;
+  top: 20px;
+  left: 15px;
+}
+
+.inputs input {
+  background: none;
+  outline: none;
+  border: none;
+  position: relative;
+  font-size: 15px;
+
+}
+
+.input-text {
+  width: 100%;
+}
+
+.rmb-frgt-button {
+  padding: 0.8em;
+  font-size: 14px;
+  top: 30px;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  left: 105px;
+}
+a {
+  color: slategrey;
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 14px;
+
+}
+.signin-button {
+  position: relative;
+  top: 40px;
+  left: 40px;
+
+}
+.btn {
+  background-color: #116466; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  width: 260px;
+  border-radius: 10px;
+
+}
+.signin-footer {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  top: 55px;
+  left: 55px;
+}
+
+@media only screen and (min-width: 768px) {
+  svg {
+    position: relative;
+    width: 200px;
+    top: 40px;
+    left: -100px;
+  }
+
+  div {
+    display: block;
+  }
+
+  #signin-wrapper {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #signin-wrapper #signin-container {
+    margin-top: 80px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 300px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.9);
+    padding: 1em;
+    text-align: center;
+    color: #4f575b;
+    position: relative;
+    left: -110px;
+  }
+
+  #signin-wrapper #signin-container .title {
+    font-size: 17px;
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    left: -3px;
+  }
+
+  .singin-form {
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .inputs {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #116466;
+  }
+  .inputs input {
+    background: none;
+    outline: none;
+    border: none;
+    position: relative;
+
+  }
+  #singin-wrapper #signin-container .input-text {
+    font-size: 1em;
+    color: #4f575b;
+    margin: 0;
+    outline: medium none;
+    padding: 0.25em;
+    background: #ffffff;
+    font-weight: normal;
+    border: 1px solid #d6d6d6;
+    border-radius: 3px;
+  }
+
+  #signin-wrapper #signin-container .rmb-frgt-button {
+    padding: 0.8em;
+  }
+
+  #signin-wrapper #signin-container .rmb-frgt-button {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    left: -10px;
+  }
+
+  #signin-wrapper #signin-container .remember-me {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+  }
+
+  #signin-wrapper #signin-container a {
+    color: #1f89ce;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 16px;
+  }
+
+  #signin-wrapper #signin-container .signin-button {
+    border-radius: 3px;
+    border: 1px solid #2399e5;
+    color: #FFFFFF;
+    background: #2399e5;
+    font-size: 16px;
+    width: 100%;
+    left: -1px;
+    top: 27px;
+  }
+
+  .btn {
+    border-radius: 3px;
+    border: 1px solid #2399e5;
+    color: #FFFFFF;
+    background: #2399e5;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  #signin-wrapper .signin-footer {
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 20px;
+    left: -110px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #signin-wrapper #signin-container {
+    margin-top: 80px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.9);
+    padding: 1em;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: -15px;
+  }
+
+  svg {
+    position: relative;
+    width: 200px;
+    top: 40px;
+    left: -10px;
+  }
+  #signin-wrapper .signin-footer {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    left: -10px;
+  }
+  .signin-form {
+    position: relative;
+    top: -25px;
+    left: -10px;
+  }
+  #signin-wrapper #signin-container .rmb-frgt-button {
+    left: 12px;
+  }
+#signin-wrapper #signin-container .signin-button {
+  left: 13px;
+  top: 40px;
+}
+}
